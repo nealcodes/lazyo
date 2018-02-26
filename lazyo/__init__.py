@@ -19,7 +19,3 @@ print(full_path)
 def lazy_open(app):
 
     os.execlp(app, app, full_path)
-
-if __name__ == '__main__':
-    lazy_open()
-
